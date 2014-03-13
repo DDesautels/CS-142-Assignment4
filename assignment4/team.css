@@ -184,7 +184,7 @@ ol ol li {
 	display:block;
 	width:15%;
 	margin-top: 2%;
-           background-image:url("uvm-final.png");
+    background-image:url("uvm-final.png");
 	position: fixed;
 	
 	
@@ -259,6 +259,14 @@ color: black;
 	padding: 1em;
 }
 
+#adminMenu ol li {
+	line-height: 3em;
+}
+
+#adminMenu ol {
+	margin-bottom: 3em;
+}
+
 
 
 #mainMenu .menuLink a:hover {
@@ -309,15 +317,16 @@ color: black;
 
 
 /* ------------------  admin menu  ------------------------------------------ */
-#adminMenu{
-	/* border-bottom: thin solid #3B5998; */
+ #adminMenu{
 	float:left;
 	font-size: 10pt;
-	margin-top: -36em;
-	margin-left: 0;
-	min-width: 100em;
+	margin-top: -9em;
+	margin-left: 15em;
+	width: 50em;
 	padding-bottom: 1.3em;
-}
+	text-align:center;
+	
+} 
 
 
 /* ===================  Main Content Section  =============================== */
@@ -330,7 +339,7 @@ color: black;
 	padding-bottom: 50px;  /* must be same height as the footer */
 	width: 85%;
        padding-right: 2em;
-	margin-top: -10.5%;
+	margin-top: -5.5%;
 	margin-left: 25%;
 	display: inline-block;
 } 
